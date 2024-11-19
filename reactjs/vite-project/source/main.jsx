@@ -9,8 +9,11 @@ import Delivery from './Tugas5/Soal2/soalgambar2-2.jsx'
 import Pesan from './Tugas5/Soal3/soalgambar3-2.jsx'
 import Time from './Tugas5/Soal4/soalgambar4-2.jsx'
 import Login from './Tugas5/Soal1/soalgambar1-2.jsx'
+import Rendering from './Tugas6/Tes/map&filter.jsx'
+import Panggil from './Tugas6/Tes/panggil.jsx'
+import Pengguna from './Tugas6/soal1/soalgambar1.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Login/>
+    <Pengguna/>
   </StrictMode>,
 )
