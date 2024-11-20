@@ -12,8 +12,15 @@ import Login from './Tugas5/Soal1/soalgambar1-2.jsx'
 import Rendering from './Tugas6/Tes/map&filter.jsx'
 import Panggil from './Tugas6/Tes/panggil.jsx'
 import Pengguna from './Tugas6/soal1/soalgambar1.jsx'
+import Toolbar from './Tugas7/Tes Event/TEs2.jsx'
+import Button from './Tugas7/Tes Event/Tes.jsx'
+import Signup from './Tugas7/Tes Event/TES3.jsx'
+import PreventDefaultExample from './Tugas7/Soal-Soal/soalgambar1.jsx'
+import EventPropagationExample from './Tugas7/Soal-Soal/soalgambar2.jsx'
+import Showalert from './Tugas7/Soal-Soal/soalgambar3.jsx'
+import Tombol from './Tugas7/Soal-Soal/soalgambar4.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Pengguna/>
+    <Tombol/>
   </StrictMode>,
 )
