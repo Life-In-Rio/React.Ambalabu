@@ -21,6 +21,6 @@ import Showalert from './Tugas7/Soal-Soal/soalgambar3.jsx'
 import Tombol from './Tugas7/Soal-Soal/soalgambar4.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Tombol/>
+    <APP/>
   </StrictMode>,
 )

@@ -9,7 +9,7 @@ function AlertButton({ message, children }) {
   );
 }
 
-export default function TombolPengumuman() {
+export default function Showalert() {
   return (
     <div>
       <AlertButton message="Pengumuman! Harap Tutup Tab ini.">

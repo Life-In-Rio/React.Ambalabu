@@ -11,6 +11,7 @@ export default function Pengguna() {
       { id: 25, name: "Abdillah", age: 32 },
       { id: 26, name: "Abduh", age: 40 },
       { id: 27, name: "Riska", age: 15 },
+      { id: 28, name: "Wildan", age: 17 },
     ];
   
     const filterName = person.filter((user) => user.name.startsWith("A"));
