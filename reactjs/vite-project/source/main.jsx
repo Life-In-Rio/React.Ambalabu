@@ -19,8 +19,13 @@ import PreventDefaultExample from './Tugas7/Soal-Soal/soalgambar1.jsx'
 import EventPropagationExample from './Tugas7/Soal-Soal/soalgambar2.jsx'
 import Showalert from './Tugas7/Soal-Soal/soalgambar3.jsx'
 import Tombol from './Tugas7/Soal-Soal/soalgambar4.jsx'
+import Example from './Tugas8/Tes soal/tessoal.jsx'
+import Loginstatus from './Tugas8/Soal-soal/soalgambar2.jsx'
+import Calculator from './Tugas8/Soal-soal/soalgambar3.jsx'
+Calculator
+Loginstatus
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <APP/>
+    <Calculator/>
   </StrictMode>,
 )
