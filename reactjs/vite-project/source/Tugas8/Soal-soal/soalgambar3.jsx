@@ -1,8 +1,8 @@
 import { useState } from "react";
 
 function Calculator() {
-  const [num1, setNum1] = useState(0);
-  const [num2, setNum2] = useState(0);
+  const [num1, setNum1] = useState('');
+  const [num2, setNum2] = useState('');
   const [result, setResult] = useState();
 
   function add() {
@@ -18,8 +18,8 @@ function Calculator() {
     setResult(parseInt(num1) / parseInt(num2));
   }
   function reset() {
-    setNum1(0);
-    setNum2(0);
+    setNum1('');
+    setNum2('');
     setResult();
   }
 
@@ -32,12 +32,14 @@ function Calculator() {
         type="number"
         value={num1}
         onChange={(e) => setNum1(e.target.value)}
+        placeholder="Enter number"
         className="w-[300px] ml-[100px] mt-[20px] mr-[20px]"
       />
       <input
         type="number"
         value={num2}
         onChange={(e) => setNum2(e.target.value)}
+        placeholder="Enter number"
         className="w-[300px] ml-[100px] mt-[20px] mr-[20px]"
       />
       <button

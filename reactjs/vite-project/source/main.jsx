@@ -22,10 +22,19 @@ import Tombol from './Tugas7/Soal-Soal/soalgambar4.jsx'
 import Example from './Tugas8/Tes soal/tessoal.jsx'
 import Loginstatus from './Tugas8/Soal-soal/soalgambar2.jsx'
 import Calculator from './Tugas8/Soal-soal/soalgambar3.jsx'
-Calculator
-Loginstatus
+import ProductList from './Tugas9/soal-soal/soalgambar1,2,3.jsx'
+import ArrayStateExample from './Tugas9/Tes soal/tessoal.jsx'
+import MapStateExample from './Tugas9/Tes soal/tessoal2.jsx'
+import ThemeToggle from './Tugas10/tes soal/tessoal.jsx'
+import FetchData from './Tugas10/tes soal/tessoal2.jsx'
+import Counter from './Tugas10/soal-soal/soalgambar1.jsx'
+import CountLogger from './Tugas10/soal-soal/soalgambar2.jsx'
+import TextLogger from './Tugas10/soal-soal/soalgambar3.jsx'
+
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Calculator/>
+    <TextLogger/>
   </StrictMode>,
 )
