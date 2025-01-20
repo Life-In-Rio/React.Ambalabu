@@ -10,10 +10,13 @@ import { NotFoundPage } from "./Tugas12/soal-soal/soal 2/soalgambar2";
 import Hytam from "./Tugas12/soal-soal/soal 3/soalgambar3";
 import Bozzo from "./Tugas12/soal-soal/soal 4/soalgambar4";
 import Banger from "./Tugas12/soal-soal/soal 5/soalgambar5";
+import CobaAxios from "./Tugas13/tessoal";
+import Axios from "./Tugas13/soalgambar1";
+import ProductList from "./Tugas9/soal-soal/soalgambar1,2,3";
 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Banger/>
+    <ProductList/>
   </StrictMode>
 );
