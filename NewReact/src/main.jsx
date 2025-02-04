@@ -1,11 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import Plate from "./Tugas17-CRUD/Soal-soal/soalgambar2";
-import Applikasi from "./Tugas17-CRUD/Soal-soal/soalgambar1";
+
+import AxiosShop from "./Tugas14-Dynamic router/soal-soal/soal 2/soalgambar23";
+import Plate2 from "./Tugas18-CRUD(2)/soalgambar2";
+
+
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Applikasi />
+    <Plate2 />
   </StrictMode>
 );
